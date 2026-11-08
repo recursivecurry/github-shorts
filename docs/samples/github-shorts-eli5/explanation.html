@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>github-shorts를 30초 만에 이해하기</title>
+<style>
+  :root {color-scheme:dark;font-family:system-ui,sans-serif;background:#101217;color:#f4f6fa}
+  body {max-width:1000px;margin:auto;padding:32px 20px 64px;line-height:1.7}
+  h1 {font-size:clamp(28px,5vw,46px);line-height:1.3}
+  p {color:#b4bdce} a {color:#78e3d0}
+  video {width:100%;max-width:390px;max-height:80vh;border-radius:24px;background:black}
+  .intro {display:flex;align-items:center;gap:40px;flex-wrap:wrap}
+  .intro>div {flex:1;min-width:240px}
+  .grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin:32px 0}
+  figure {margin:0} img {width:100%;border-radius:20px} figcaption {padding:10px;color:#b4bdce}
+  section {margin-top:40px;padding:24px;background:#1d2330;border-radius:24px}
+  li {margin:12px 0;padding:12px;background:#2d3445;border-radius:12px}
+  summary {cursor:pointer;color:#78e3d0;padding:14px 0}
+</style>
+<body>
+<div class="intro">
+  <div><p>github-shorts · eli5 설명</p><h1>코드 변경을<br>짧은 영상으로 이해해요.</h1>
+  <p>고친 코드인 PR을 설명 영상으로 보고, 퀴즈를 맞힌 뒤 GitHub에 리뷰를 남기는 서비스예요.</p>
+  <p>한국어 음성·자막이 포함된 30초 샘플입니다. 마지막 7초에 확인 퀴즈가 나옵니다.</p>
+  <a href="github-shorts-eli5-30s.mp4" download>MP4 저장하기</a></div>
+  <video controls playsinline preload="metadata" poster="scene-1.png" src="github-shorts-eli5-30s.mp4"></video>
+</div>
+<div class="grid">
+  <figure><img src="scene-2.png" alt="PR과 관련 이슈에서 쉬운 설명을 만들고 음성·자막 영상으로 바꾸는 흐름"><figcaption>코드와 관련 이슈를 읽고, 그림과 설명을 만들어요.</figcaption></figure>
+  <figure><img src="scene-3.png" alt="모바일 화면에서 세로 영상을 보고 위아래로 다음 PR로 이동하는 모습"><figcaption>PC와 모바일 웹에서 쇼츠처럼 넘겨 보세요.</figcaption></figure>
+  <figure><img src="scene-4.png" alt="사지선다 퀴즈에 정답을 맞히면 승인과 변경 요구 버튼을 사용할 수 있는 모습"><figcaption>퀴즈에 정답을 맞히면 리뷰할 수 있어요.</figcaption></figure>
+</div>
+<section aria-labelledby="quiz-title">
+  <p>영상 마지막에 나온 확인 퀴즈</p>
+  <h2 id="quiz-title">리뷰 버튼은 언제 켜질까요?</h2>
+  <ol type="A"><li>영상을 켜면</li><li>댓글을 남기면</li><li>퀴즈의 정답을 맞히면</li><li>링크를 공유하면</li></ol>
+  <details><summary>정답과 해설 보기</summary><p>정답은 C입니다. 현재 영상의 퀴즈에 정답을 맞히면 승인이나 변경 요구를 할 수 있어요. 틀리면 다시 골라요.</p>
+  <p>본인 PR에는 리뷰 버튼이 없어요. 영상이 만들어진 뒤 코드가 바뀌었다면, 새 영상이 게시될 때까지 서비스에서 리뷰를 제출할 수 없어요.</p></details>
+</section>
+<p>이 파일은 설명용 샘플이며 실제 GitHub 로그인·댓글·리뷰를 실행하지 않습니다. Codex에서 직접 제작했으며, Claude Code가 Codex CLI를 호출하는 통합 실행은 이번 샘플에서 검증하지 않았습니다.</p>
+<p><a href="https://github.com/anthropics/claude-plugins-community/blob/main/eli5/skills/eli5/SKILL.md">eli5 원본 스킬</a>의 큰 그림과 적은 글자로 설명하는 지침을 적용했습니다. 음성은 macOS의 Yuna로 로컬에서 합성했습니다.</p>
+</body>
+</html>

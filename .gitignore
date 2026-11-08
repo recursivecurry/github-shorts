@@ -1,0 +1,5 @@
+__pycache__/
+docs/samples/github-shorts-eli5/voice-*.aiff
+docs/samples/github-shorts-eli5/voice-*.txt
+docs/samples/github-shorts-eli5/narration.wav
+docs/samples/github-shorts-eli5/render.log

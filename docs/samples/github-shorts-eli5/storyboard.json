@@ -1,0 +1,100 @@
+{
+  "duration_seconds": 30,
+  "quiz_start_seconds": 23,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "title": [
+        "코드 변경을",
+        "짧은 영상으로"
+      ],
+      "narration": "깃허브 쇼츠는 코드 변경 내용을 짧은 영상으로 설명해 줘요.",
+      "captions": [
+        "깃허브 쇼츠는 코드 변경 내용을",
+        "짧은 영상으로 설명해 줘요."
+      ],
+      "source_audio_seconds": 3.840363,
+      "audio_speed": 1,
+      "speech_end": 3.990363
+    },
+    {
+      "start": 5,
+      "end": 11,
+      "title": [
+        "어려운 변경도",
+        "그림으로 쉽게"
+      ],
+      "narration": "리뷰할 코드와 관련 이슈를 읽고, 쉬운 그림과 설명을 만들어요.",
+      "captions": [
+        "리뷰할 코드와 관련 이슈를 읽고,",
+        "쉬운 그림과 설명을 만들어요."
+      ],
+      "source_audio_seconds": 4.202358,
+      "audio_speed": 1,
+      "speech_end": 9.352358
+    },
+    {
+      "start": 11,
+      "end": 17,
+      "title": [
+        "쇼츠처럼 넘기며",
+        "보고 이해해요"
+      ],
+      "narration": "휴대폰이나 컴퓨터에서 영상을 봐요. 위아래로 넘기면 다음 코드가 나와요.",
+      "captions": [
+        "휴대폰이나 컴퓨터에서 영상을 봐요.",
+        "위아래로 넘기면 다음 코드가 나와요."
+      ],
+      "source_audio_seconds": 4.792154,
+      "audio_speed": 1,
+      "speech_end": 15.942154
+    },
+    {
+      "start": 17,
+      "end": 23,
+      "title": [
+        "퀴즈를 맞히면",
+        "리뷰할 수 있어요"
+      ],
+      "narration": "영상 끝의 퀴즈를 맞히면, 승인을 하거나 변경을 요구할 수 있어요.",
+      "captions": [
+        "영상 끝의 퀴즈를 맞히면,",
+        "승인을 하거나 변경을 요구할 수 있어요."
+      ],
+      "source_audio_seconds": 4.573152,
+      "audio_speed": 1,
+      "speech_end": 21.723152
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "title": [
+        "리뷰 버튼은",
+        "언제 켜질까요?"
+      ],
+      "narration": "확인 퀴즈! 리뷰 버튼은 언제 켜질까요? 네 가지 중에서 골라 보세요.",
+      "captions": [
+        "확인 퀴즈! 리뷰 버튼은 언제 켜질까요?",
+        "네 가지 중에서 골라 보세요."
+      ],
+      "source_audio_seconds": 4.883583,
+      "audio_speed": 1,
+      "speech_end": 28.033583
+    }
+  ],
+  "quiz": {
+    "question": "리뷰 버튼은 언제 켜질까요?",
+    "choices": [
+      "영상을 켜면",
+      "댓글을 남기면",
+      "퀴즈의 정답을 맞히면",
+      "링크를 공유하면"
+    ],
+    "correct_choice_id": "C",
+    "explanation": "현재 영상의 퀴즈에 정답을 맞히면 리뷰할 수 있습니다. 단, 본인 PR에는 리뷰 버튼이 없고 영상과 현재 코드가 다르면 새 영상이 게시될 때까지 리뷰 제출이 차단됩니다."
+  },
+  "tts": "macOS say / Yuna / local",
+  "eli5_skill": "https://github.com/anthropics/claude-plugins-community/blob/main/eli5/skills/eli5/SKILL.md",
+  "pipeline_note": "Codex에서 직접 만든 샘플이며 Claude Code → Codex CLI 통합 실행을 검증한 결과는 아닙니다."
+}
